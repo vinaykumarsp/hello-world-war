@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Check out') {
+        stage('Checkout') {
             steps {
                 sh "pwd"
                 sh "rm -rf hello-world-war"
